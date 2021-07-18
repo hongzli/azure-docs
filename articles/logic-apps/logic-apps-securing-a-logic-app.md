@@ -655,6 +655,14 @@ In the underlying trigger or action definition, add or update the `runtimeConfig
    <other-attributes>
 }
 ```
+     
+#### Support for secure inputs and outputs
+
+All managed and custom connectors support these options while these built-in operations don't support these options as follows:
+     
+| No support for Secure Inputs                                                                                                                                                                                      | No support for Secure Outputs                                                                                                                                                                                                                                  |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Append to array variable<br>Append to string variable<br>Decrement variable<br>For each<br>If<br>Increment variable<br>Initialize variable<br>Recurrence<br>Scope<br>Set variable<br>Switch<br>Terminate<br>Until | Append to array variable<br>Append to string variable<br>Compose<br>Decrement variable<br>For each<br>If<br>Increment variable<br>Initialize variable<br>Parse JSON<br>Recurrence<br>Response<br>Scope<br>Set variable<br>Switch<br>Terminate<br>Until<br>Wait |
 
 <a name="secure-action-parameters"></a>
 
